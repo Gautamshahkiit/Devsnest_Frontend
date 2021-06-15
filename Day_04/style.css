@@ -1,0 +1,28 @@
+.circle {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background-color: red;
+  position: relative;
+}
+
+.incircle {
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.min {
+  height: 4px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+}
