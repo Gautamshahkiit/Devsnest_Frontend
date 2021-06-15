@@ -26,3 +26,13 @@
   top: 125px;
   left: 125px;
 }
+
+.sec {
+  height: 4px;
+  width: 70px;
+  background-color: black;
+  position: absolute;
+  top: 148px;
+  left: 115px;
+  transform: rotate(45deg);
+}
