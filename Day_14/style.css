@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(230, 240, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: rgb(131, 245, 111);
+  text-align: center;
+  position: absolute;
+  /* visibility: hidden; */
+}
+
+.text {
+  color: rgb(9, 83, 6);
+  font-weight: bold;
+  margin-top: 195px;
+}
+
+input {
+  background-color: rgb(203, 238, 174);
+  margin-top: 500px;
+}
