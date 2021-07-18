@@ -57,7 +57,7 @@ let gameActive = true;
 
 for (let card of cards) {
   card.addEventListener("click", (e) => {
-    if (!gameActive) return;
+    if (!gameActive || card.firstChild.classList.contains('flipped')) return;
     moves++;
     document.querySelector("span").innerHTML = moves;
 
