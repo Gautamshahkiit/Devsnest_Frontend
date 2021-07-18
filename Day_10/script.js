@@ -63,11 +63,12 @@ for (let card of cards) {
 
     if (clicked) {
       card.firstChild.classList.add("flipped");
+      console.log(card);
       gameActive = false;
       setTimeout(() => {
         if (
           card.firstChild.lastChild.innerHTML !==
-          clicked.firstChild.lastChild.innerHTML
+          clicked.firstChild.lastChild.innerHTML && card.firstChild.classList.contains("flipped")
         ) {
           card.firstChild.classList.remove("flipped");
           clicked.firstChild.classList.remove("flipped");
@@ -82,21 +83,22 @@ for (let card of cards) {
     } else {
       clicked = card;
       card.firstChild.classList.add("flipped");
+      console.log(card);
     }
   });
 }
 
 setInterval(() => {
-  if(matches === 10) {
-    document.querySelector(".popup").style.display="flex";
-    document.querySelector(".container").style.display="none";
-    document.querySelector(".popup > div > h2").innerHTML="You Won !!!";
+  if (matches === 10) {
+    document.querySelector(".popup").style.display = "flex";
+    document.querySelector(".container").style.display = "none";
+    document.querySelector(".popup > div > h2").innerHTML = "You Won !!!";
   }
 }, 100);
 
 document.querySelector("#reload").addEventListener("click", (e) => {
   window.location.reload();
-})
+});
 
 // const boxes = document.querySelectorAll(".box");
 // boxes.forEach((box) => {
