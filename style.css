@@ -1,0 +1,82 @@
+p{
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container{
+background: linear-gradient(135deg, rgba(0,255,0,0.4)0%,rgba(0,0,0,0.4) 25%,rgba(0,25,150,0.5)50%,rgba(255,0,0,0.6) 75%,rgba(0,25,150,0.5) 100%);
+position: absolute;
+top: 0;
+left: 0;
+background-repeat: repeat;
+background-size: 500% 500%;
+transition: 5s;
+animation: animate 8s  linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.box{
+    background: rgba(255, 255, 255, 0.17);
+    /* backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px); */
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: double white 8px;
+    border-radius: 20px;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+}
+.THA{
+   transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: black;
+    height: auto;
+    width: 310px;
+    margin: 40px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* border: double black 5px; */
+    border-radius: 10px;
+    padding-top: 10px;
+    outline: none;
+}
+@media(max-width: 1000px){
+    .THA{
+        background-color: rgba(255, 255, 255, 0.13);
+        color: white;
+        /* border: double firebrick 5px; */
+    }
+}
+@media(max-width: 600px){
+    .THA{
+        background-color: gainsboro;
+        color: hotpink;
+
+    }
+}
+.THA:hover{
+    transform: scale(1.1,1.1);
+    border: none;
+    box-shadow: white 5px 5px 5px;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    
+}
