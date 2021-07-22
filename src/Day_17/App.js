@@ -1,7 +1,11 @@
+import CardContainer from "./Components/CardContainer";
+import './App.css'
+
 function App() {
   return (
     <div className="App">
-     <p>Hello Day 17</p>
+      <h1 className="header">Calorie Meter</h1>
+      <CardContainer />
     </div>
   );
 }

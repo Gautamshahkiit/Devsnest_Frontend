@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardcontainer {
+  background-color: rgb(99, 99, 230);
+  padding: 10px;
+  margin: 32px 0;
+  width: 600px;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background: #aaaafb;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.3);
+}
