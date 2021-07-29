@@ -22,3 +22,7 @@
   color: rgb(197, 222, 243);
   text-align: center;
 }
+
+.comp {
+  display: flex;
+}

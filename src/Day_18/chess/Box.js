@@ -1,7 +1,7 @@
 import './Styles/Box.css'
 
-const Box = () => {
-  return <div className="box"></div>;
+const Box = (props) => {
+  return <div className={props.colorClass}></div>;
 };
 
 export default Box;

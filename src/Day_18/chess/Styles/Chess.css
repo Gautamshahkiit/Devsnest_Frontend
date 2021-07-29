@@ -5,15 +5,8 @@
 }
 
 .chess {
-  display: inline-block;
-  border: 5px solid black;
-  /* background-color: black; */
-}
-
-.chess .row:nth-child(even) .box:nth-child(odd) {
-  background-color: black;
-}
-
-.chess .row:nth-child(odd) .box:nth-child(even) {
-  background-color: black;
+  width: 164px;
+  height: 164px;
+  margin: 0 auto;
+  border: 2px solid black;
 }

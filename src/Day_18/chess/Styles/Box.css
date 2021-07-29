@@ -4,7 +4,14 @@
   box-sizing: border-box;
 }
 
-.box {
+.white {
   height: 20px;
   width: 20px;
+  background-color: white;
+}
+
+.black {
+  height: 20px;
+  width: 20px;
+  background-color: black;
 }
