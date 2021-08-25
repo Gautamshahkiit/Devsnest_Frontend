@@ -1,7 +1,7 @@
 import Button from "./Button";
 import { useState } from "react";
 
-function App() {
+function Day15() {
   const [clicked, setButton] = useState(false);
 
   const click = () => {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <h1>Hello Day 15 !</h1>
       <p>
-        This is Dy 15 THA where we have to create a button, which upon clicking
+        This is Day 15 THA where we have to create a button, which upon clicking
         displays "You Liked This"
       </p>
       {!clicked ? <Button click={click} /> : "You liked this !" }
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Day15;
