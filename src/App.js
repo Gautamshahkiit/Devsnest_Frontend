@@ -6,7 +6,10 @@ import React from "react";
 // import Day18 from "./Day_18/App";
 // import Day19 from "./Day_19/App";
 // import Day20 from "./Day_20/App";
-import Day21 from "./Day_21/App";
+// import Day21 from "./Day_21/App";
+import Day22 from "./Day_22/App";
+// import Day23 from "./Day_23/App";
+// import Day24 from "./Day_22/App";
 
 // import Test from './Test/test'
 // import Data from './Test/data'
@@ -23,6 +26,9 @@ function App() {
     //     <Route path="/Day_19" component={Day19} />
     //     <Route path="/Day_20" component={Day20} />
     //     <Route path="/Day_21" component={Day21} />
+    //     <Route path="/Day_22" component={Day22} />
+    //     <Route path="/Day_23" component={Day23} />
+    //     <Route path="/Day_24" component={Day24} />
     //     <Route exact path="/" component={Links} />
     //   </Switch>
     // </>
@@ -32,7 +38,10 @@ function App() {
     {/* <Day18 /> */}
     {/* <Day19 /> */}
     {/* <Day20 /> */}
-    <Day21 />
+    {/* <Day21 /> */}
+    <Day22 />
+    {/* <Day23 /> */}
+    {/* <Day24 /> */}
     {/* <Data /> */}
     </>
   );
