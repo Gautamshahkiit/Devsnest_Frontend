@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+}
+.productpage {
+  padding: 30px 70px;
+}
+.top {
+  display: flex;
+  height: 500px;
+}
+.top img {
+  border-radius: 10px;
+}
+.productinfo {
+  flex-grow: 1;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.buyingdiv {
+  display: flex;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /* color: gray; */
+  /* background-color: rgba(247, 245, 245, 0.836); */
+  /* padding: 5px 20px; */
+}
+.left {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid grey;
+  padding: 20px;
+  height: 100%;
+}
+.button {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  /* font-weight: 100; */
+  /* letter-spacing: 2px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-color: dodgerblue;
+  border-width: 0px;
+  transform: translate(0, -20px);
+}
+
+.description {
+  border: 1px solid grey;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin: 10px 0;
+}
+.listings {
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+.table-striped th {
+  text-align: center;
+}
+.listings hr {
+  margin: 1rem 0px 0px 0px;
+}
+/* td:nth-child(3),
+th:nth-child(3) {
+  border-left: 2px solid black;
+} */

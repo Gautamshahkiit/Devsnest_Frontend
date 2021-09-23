@@ -1,0 +1,39 @@
+.wallet input {
+  width: 400px;
+  font-size: 1rem;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 0;
+}
+
+.wallet .button {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  margin-top: 25px;
+  width: 150px;
+  height: 40px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-color: dodgerblue;
+  border-width: 0px;
+}
+
+.add_money {
+  display: flex;
+  flex-direction: column;
+}
+.wallet .add_money {
+  align-items: center;
+  justify-content: center;
+}
+.transactions {
+  padding: 30px;
+  /* display: flex; */
+}
+/* .transactions li {
+  /* display: block; 
+} */

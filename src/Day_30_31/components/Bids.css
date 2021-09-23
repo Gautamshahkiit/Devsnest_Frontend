@@ -1,0 +1,18 @@
+.your-bids td,
+th {
+  text-align: center;
+}
+
+.your-bids table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.your-bids tr {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 250ms;
+}
+
+.your-bids tr:hover {
+  transform: translateY(5px);
+}
