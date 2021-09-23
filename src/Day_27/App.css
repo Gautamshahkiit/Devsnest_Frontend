@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App *{
+  margin: 10px;
+}
+
+.todo{
+  display: flex;
+}
+
+.content{
+  border: 2px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .todo {
+  border: 1px solid black;
+}
+
+.todo p{
+  display: inline;
+  border: 1px solid black;
+}
+
+.todo button{
+  color: red;
+  float: right;
+} */
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
