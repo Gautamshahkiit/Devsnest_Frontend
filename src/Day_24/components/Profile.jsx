@@ -1,12 +1,12 @@
 import Context from "../Context"
 import { useContext } from "react"
 import {Redirect} from 'react-router-dom'
-export default function Dashboard (){
+export default function Profile (){
     const userInfo = useContext(Context);
+
     return(
         <div className="content">
-            {userInfo.loggedIn ? <h1>Dashboard: Private Route</h1> : <Redirect to="/"></Redirect>}
-
+            {userInfo.loggedIn ? <h1>Profile</h1> : <Redirect to="/"></Redirect>}
         </div>
     )
 }
