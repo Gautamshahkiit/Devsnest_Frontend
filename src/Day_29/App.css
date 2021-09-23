@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  color: white;
+  background-image: url(../src/images/wallpaper.jpg);
+  background-size: cover;
+}
+
+.input-city {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-city input {
+  padding: 7px 10px;
+  margin: 0 20px;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  background-color: rgb(61, 60, 60);
+  color: white;
+}
+
+.input-city input:focus {
+  outline: none;
+}
+
+.input-city button {
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #272838;
+  color: white;
+}
+
+.weather-card {
+  width: 45vw;
+  margin: 100px 0;
+  padding: 40px;
+  background-image: url(../src/images/sunset.jpg);
+  background-position: 0% 40%;
+  border-radius: 20px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-weather .place-info div {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.current-weather .place-info p {
+  font-size: 0.8rem;
+}
+
+.current-weather .place-info img {
+  margin: 10px 0;
+}
+
+.current-weather .stats div {
+  font-size: 6rem;
+}
+
+.current-weather .stats p {
+  margin-top: 16px;
+  font-size: 1.2rem;
+}
+
+/* background-color: rgb(61, 60, 60); */
